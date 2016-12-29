@@ -2558,6 +2558,7 @@
 			line-height: 1em;
 			margin-left: 0.75em;
 			padding-left: 0.75em;
+			position:relative;
 		}
 
 			#footer .copyright li:first-child {
