@@ -128,6 +128,8 @@
 						windowMargin: (skel.breakpoint('small').active ? 0 : 50)
 					});
 
+
+
 				});
 
 	});
@@ -143,4 +145,13 @@ $(function() {
 		e.preventDefault();
 		$('html, body').animate({ scrollTop: $($(this).attr('href')).offset().top}, 500, 'linear');
 	});
+});
+
+
+$(function() {
+  $('#inner').poptrox({
+    usePopupCaption: true,
+    usePopupNav: true,
+    popupPadding: 0
+  });
 });
