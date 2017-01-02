@@ -3145,7 +3145,7 @@
   video{
     display:none;
   }
-    .full-img{
-    background: url('images/bg.jpg');
-    background-size: cover;
+    #header{
+    background-image: url("images/overlay.png"), url("../../images/bg.jpg");
   }
+}
