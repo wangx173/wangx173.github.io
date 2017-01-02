@@ -3146,6 +3146,6 @@
     display:none;
   }
     .full-img{
-    background: url('https://pbs.twimg.com/profile_images/686049493884665856/BW148X8R_400x400.jpg');
+    background: url('../../bg.png');
     background-size: cover;
   }
