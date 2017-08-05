@@ -30,7 +30,7 @@
 
 .quick-nav-trigger {
   position: absolute;
-  z-index: 10103;
+  z-index: 10104;
   top: 0;
   right: 0;
   height: 60px;
@@ -125,7 +125,6 @@
     height: 50px;
     line-height: 50px;
     padding: 0 calc(1em + 60px) 0 1em;
-    font-size: 1.4rem;
     webkit-transition: color 0.2s;
     -moz-transition: color 0.2s;
     -ms-transition: color 0.2s;
