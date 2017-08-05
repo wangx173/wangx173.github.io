@@ -7,6 +7,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 	<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
 	<link rel="stylesheet" href="assets/css/main.css" />
+	<link rel="stylesheet" href="assets/css/quick-nav.css" />
 	<link href="cubeportfolio/css/cubeportfolio.css" rel="stylesheet" type="text/css" />
 	<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 	<link href="cubeportfolio/css/portfolio.min.css" rel="stylesheet" type="text/css" />
@@ -16,6 +17,45 @@
 
 
 	<!-- Header -->
+	<nav class="quick-nav">
+		<a class="quick-nav-trigger" href="#0">
+			<span aria-hidden="true"></span>
+		</a>
+		<ul>
+			<li>
+				<a class ='nav-item' href="#zero" target="_blank" class="active">
+					<span>About</span>
+					<i class="icon fa-home"></i>
+				</a>
+			</li>
+			<li>
+				<a class ='nav-item' href="#one" target="_blank">
+					<span>Education</span>
+					<i class="icon fa-graduation-cap"></i>
+				</a>
+			</li>
+			<li>
+				<a class ='nav-item' href="#two" target="_blank">
+					<span>Skills</span>
+					<i class="icon fa-code"></i>
+				</a>
+			</li>
+			<li>
+				<a  class ='nav-item' href="#three" target="_blank">
+					<span>Work Experience</span>
+					<i class="icon fa-briefcase"></i>
+				</a>
+			</li>
+			<li>
+				<a  class ='nav-item' href="#four" target="_blank">
+					<span>Projects</span>
+					<i class="icon fa-file-text"></i>
+				</a>
+			</li>
+		</ul>
+		<span aria-hidden="true" class="quick-nav-bg"></span>
+	</nav>
+	<div class="quick-nav-overlay"></div>
 
 	<header id="header">
 
@@ -46,6 +86,7 @@
 			<div id="main">
 
 
+
 				<!-- zero -->
 				<section id="zero">
 					<header class="major">
@@ -54,7 +95,7 @@
 					</header>
 					<p>As a new graduate specializing in Computer Science at the University of Toronto, I developed excellent technical skills. Through my focus and determination, I officially achieved the Honours of Bachelor of Science with High Distinction degree in November 2016. Meanwhile, through my previous work experience, I have become proficient in designing and developing applications using programing languages such as C, Java and Python, and have experienced with Cloud-Based Development, and Automation and Testing. Furthermore, I am familiar with the software development life cycle and Agile development methods.  </p>
 					<ul class="actions">
-						<li><a href="#one" class="button">Learn More</a></li>
+						<li><a href="images/resume.pdf" class="button icon fa-download">View Resume</a></li>
 					</ul>
 				</section>
 
@@ -170,9 +211,7 @@
 
 
 								</div>
-								<ul class="actions">
-									<li><a href="images/resume.pdf" class="button icon fa-download">View Resume</a></li>
-								</ul>
+
 							</div>
 							<div class="6u 12u$(small)">
 								<div class="skillset">  
@@ -354,7 +393,7 @@
 
 
 													<!-- Three -->
-													<section id="three">
+													<section id="four">
 
 														<h2>Projects</h2>
 														<div class="row">
@@ -715,6 +754,8 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 			<script src="assets/js/util.js"></script>
 			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
 			<script src="assets/js/main.js"></script>
+			<script src="assets/js/quick-nav.min.js"></script>
+
 			<script src="cubeportfolio/js/jquery.cubeportfolio.min.js" type="text/javascript"></script>
 			<script src="cubeportfolio/js/portfolio-3.min.js" type="text/javascript"></script>
 
